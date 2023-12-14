@@ -19,7 +19,7 @@ const displayProphets = (prophets) => {
 };
 
 const getProphets = async () => {
-    const answer = await fetch(`../scripts/prophets.json`);
+    const answer = await fetch(`prophets.json`);
     prophetList = await answer.json();
     displayProphets(prophetList);
 };
