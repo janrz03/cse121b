@@ -71,8 +71,6 @@ function sortBy (temples) {
     }
 };
 
-
-
 /* Event Listener */
 document.querySelector("#sortBy").addEventListener("change", () => {sortBy(templeList) });
 getTemples();
